@@ -57,7 +57,7 @@ function Navbar() {
         </div>
         <div className="flex flex-1 justify-end">
           <a
-            href="https://github.com/ktra99/todo"
+            href="https://github.com/ktra99/ecommerce"
             className="text-sm font-semibold leading-6 text-gray-900"
             target="_blank"
             rel="noreferrer"
