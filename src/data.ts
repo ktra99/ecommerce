@@ -44,7 +44,7 @@ export const products = [
   },
   {
     id: "price_1MYyCLGhYOASSjS330Ylwj1T",
-    name: "Long Sleeve T-shirt Black",
+    name: "Long Sleeve Black",
     price: 180,
     sizes: ["s", "m"],
     color: "black",
