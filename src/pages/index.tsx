@@ -443,7 +443,7 @@ export default function Home() {
       </Transition.Root>
       <Navbar />
       <main className="mx-auto max-w-2xl px-4 lg:max-w-7xl lg:px-8">
-        <div className="sticky top-0 z-10 flex justify-between border-b border-gray-200 bg-white pt-24 pb-10">
+        <div className="sticky top-0 z-10 flex justify-between border-b border-gray-200 bg-white py-10">
           <div>
             <h1 className="text-2xl font-bold tracking-tight text-gray-900 sm:text-4xl">
               New Arrivals
