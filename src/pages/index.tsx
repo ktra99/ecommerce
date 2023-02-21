@@ -8,6 +8,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { FormEvent, Fragment, useState } from "react";
 import { create } from "zustand";
 import { useRouter } from "next/router";
+import { NextSeo } from "next-seo";
 
 const useProductStore = create<{
   cart: ProductType[];
@@ -178,6 +179,31 @@ export default function Home() {
   };
   return (
     <>
+      <NextSeo
+        title="Kenny Tran - Ecommerce"
+        description="A minimalistic ecommerce template built on top of stripe"
+        canonical="https://ecommerce.ktra99.dev/"
+        openGraph={{
+          title: "Kenny Tran - Ecommerce",
+          description:
+            "A Minimalistic ecommerce template built on top of stripe",
+          images: [
+            {
+              url: "https://ecommerce.ktra99.dev/og.png",
+              width: 800,
+              height: 600,
+              alt: "Og Image Alt",
+              type: "image/jpeg",
+            },
+          ],
+          siteName: "ecommerce.ktra99.dev",
+        }}
+        twitter={{
+          handle: "@ktra99",
+          site: "@ecommerce.ktra99.dev",
+          cardType: "summary_large_image",
+        }}
+      />
       <Transition.Root show={open} as={Fragment}>
         <Dialog as="div" className="relative z-10" onClose={setOpen}>
           <Transition.Child

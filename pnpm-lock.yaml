@@ -15,6 +15,7 @@ specifiers:
   eslint-config-next: 13.1.6
   framer-motion: ^9.0.2
   next: 13.1.6
+  next-seo: ^5.15.0
   postcss: ^8.4.21
   prettier: ^2.8.3
   prettier-plugin-tailwindcss: ^0.2.2
@@ -37,6 +38,7 @@ dependencies:
   eslint-config-next: 13.1.6_7kw3g6rralp5ps6mg3uyzz6azm
   framer-motion: 9.0.2_biqbaboplfbrettd7655fr4n2y
   next: 13.1.6_biqbaboplfbrettd7655fr4n2y
+  next-seo: 5.15.0_3vryta7zmbcsw4rrqf4axjqggm
   react: 18.2.0
   react-dom: 18.2.0_react@18.2.0
   stripe: 11.9.1
@@ -1834,6 +1836,18 @@ packages:
 
   /natural-compare/1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
+    dev: false
+
+  /next-seo/5.15.0_3vryta7zmbcsw4rrqf4axjqggm:
+    resolution: {integrity: sha512-LGbcY91yDKGMb7YI+28n3g+RuChUkt6pXNpa8FkfKkEmNiJkeRDEXTnnjVtwT9FmMhG6NH8qwHTelGrlYm9rgg==}
+    peerDependencies:
+      next: ^8.1.1-canary.54 || >=9.0.0
+      react: '>=16.0.0'
+      react-dom: '>=16.0.0'
+    dependencies:
+      next: 13.1.6_biqbaboplfbrettd7655fr4n2y
+      react: 18.2.0
+      react-dom: 18.2.0_react@18.2.0
     dev: false
 
   /next/13.1.6_biqbaboplfbrettd7655fr4n2y:
